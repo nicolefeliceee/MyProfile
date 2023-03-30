@@ -11,14 +11,16 @@
 
     {{-- bootstrap css --}}
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
 
     {{-- customize css --}}
     <link rel="stylesheet" href="sl3/css/navbar.css">
     <link rel="stylesheet" href="sl3/css/contact.css">
 </head>
 <body>
-    <div class="fullNavbar">
-        <h2><a href="index">Nicole Felice</a></h2>
+    {{-- navbar start here --}}
+    <div class="fullNavbar position-fixed">
+        <h1><a href="index">Nicole Felice</a></h1>
         <nav id="navbar" class="navbar">
             <ul>
               <li><a class="nav-link" href="index">Home</a></li>
@@ -29,10 +31,127 @@
             </ul>
         </nav>
     </div>
+    {{-- navbar end here --}}
 
+    {{-- content start here --}}
     <div class="allContainer contact">
-        
+        <div class="section-title">
+            <h2>Contact</h2>
+            <p>Contact Me</p>
+        </div>
+
+        <div class="row row-cols-2">
+            <a href="https://www.google.com/maps/place/Rumah+Talenta+BCA/@-6.5886849,106.880192,17z/data=!3m1!4b1!4m6!3m5!1s0x2e69c7ff4c5bd601:0xbaf218b456b897e4!8m2!3d-6.5886902!4d106.8823807!16s%2Fg%2F11l0dmgc3q">
+                <div class="col address">
+                    <div class="rounded-circle">
+                        <i class="bi bi-geo-alt"></i>
+                    </div>
+                    <div class="pack">
+                        <h3>My Address</h3>
+                        <p>Rumah Talenta BCA, Kabupaten Bogor, Jawa Barat 16810</p>
+                    </div>
+                </div>
+            </a>
+            <div class="col social">
+                <div class="rounded-circle">
+                    <i class="bi bi-share"></i>
+                </div>
+                <div class="pack">
+                    <h3>Social Profiles</h3>
+                    <div class="socialCart">
+                        <a href="https://www.linkedin.com/in/nicole-felice-81aa171b6/">
+                            <i class="bi bi-linkedin"></i>
+                        </a>
+                        <a href="https://github.com/nicolefeliceee">
+                            <i class="bi bi-github"></i>
+                        </a>
+                        <a href="https://www.instagram.com/nicolefelicee/">
+                            <i class="bi bi-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://mail.google.com/mail/u/0/#inbox?compose=new">
+                <div class="col email">
+                    <div class="rounded-circle">
+                        <i class="bi bi-envelope"></i>
+                    </div>
+                    <div class="pack">
+                        <h3>Email Me</h3>
+                        <p>nicolefeliceee@gmail.com</p>
+                    </div>
+                </div>
+            </a>
+            <div class="col call">
+                <div class="rounded-circle">
+                    <i class="bi bi-telephone"></i>
+                </div>
+                <div class="pack">
+                    <h3>Call Me</h3>
+                    <p>+62 81994352967</p>
+                </div>
+            </div>
+        </div>
+
+        {{-- <div class="row mt-2">
+            <div class="col-md-6 d-flex align-items-stretch">
+                <i class="bi bi-twitter"></i>
+                Column
+            </div>
+            <div class="col-md-6 d-flex align-items-stretch">Column</div>
+            <div class="col-md-6 d-flex align-items-stretch">Column</div>
+            <div class="col-md-6 d-flex align-items-stretch">Column</div>
+        </div> --}}
+
+        {{-- <div class="row mt-2">
+            <div class="col-md-6 d-flex align-items-stretch">Column</div>
+            <div class="col-md-6 d-flex align-items-stretch">Column</div>
+            <div class="col-md-6 d-flex align-items-stretch">Column</div>
+            <div class="col-md-6 d-flex align-items-stretch">Column</div>
+          </div> --}}
+
+
+        {{-- <div class="row mt-2">
+
+            <div class="col-md-6 d-flex align-items-stretch">
+              <div class="info-box">
+                <i class="bx bx-map"></i>
+                <h3>My Address</h3>
+                <p>A108 Adam Street, New York, NY 535022</p>
+              </div>
+            </div>
+
+            <div class="col-md-6 mt-4 mt-md-0 d-flex align-items-stretch">
+              <div class="info-box">
+                <i class="bx bx-share-alt"></i>
+                <h3>Social Profiles</h3>
+                <div class="social-links">
+                  <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+                  <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+                  <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+                  <a href="#" class="google-plus"><i class="bi bi-skype"></i></a>
+                  <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 mt-4 d-flex align-items-stretch">
+              <div class="info-box">
+                <i class="bx bx-envelope"></i>
+                <h3>Email Me</h3>
+                <p>contact@example.com</p>
+              </div>
+            </div>
+            <div class="col-md-6 mt-4 d-flex align-items-stretch">
+              <div class="info-box">
+                <i class="bx bx-phone-call"></i>
+                <h3>Call Me</h3>
+                <p>+1 5589 55488 55</p>
+              </div>
+            </div>
+          </div> --}}
     </div>
+    {{-- content end here --}}
 
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>

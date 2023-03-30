@@ -17,8 +17,9 @@
     <link rel="stylesheet" href="sl3/css/resume.css">
 </head>
 <body>
-    <div class="fullNavbar">
-        <h2><a href="index">Nicole Felice</a></h2>
+    {{-- navbar start here --}}
+    <div class="fullNavbar position-fixed">
+        <h1><a href="index">Nicole Felice</a></h1>
         <nav id="navbar" class="navbar">
             <ul>
               <li><a class="nav-link" href="index">Home</a></li>
@@ -29,6 +30,7 @@
             </ul>
         </nav>
     </div>
+    {{-- navbar end here --}}
 
 
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>

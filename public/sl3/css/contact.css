@@ -1,0 +1,118 @@
+.row.row-cols-2{
+    /* background-color: pink; */
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.row.row-cols-2 a{
+    width: 50%;
+    padding: 0;
+    margin: 0;
+}
+
+a .col.email{
+    /* background-color: blue; */
+    width: 100%;
+}
+
+a .col.address{
+    /* background-color: blue; */
+    width: 100%;
+}
+
+.col{
+    background-color: rgba(255, 255, 255, 0.09);
+    width: 50%;
+    margin: 0;
+    position: relative;
+    padding: 28px 20px;
+    display: flex;
+}
+
+.rounded-circle{
+    width: 60px;
+    height: 60px;
+    /* background-color: grey; */
+    background: rgba(255, 255, 255, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pack{
+    /* background-color: pink; */
+    margin-left: 20px;
+}
+
+.pack h3 {
+    /* margin: 0; */
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 700;
+    margin-top: 3px;
+    /* margin: 10px 0 8px 68px; */
+}
+
+.pack p {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    line-height: 15px;
+    font-size: 14px;
+    /* margin: 0 0 0 68px; */
+}
+
+.address{
+    border-right: black 12px solid;
+    border-bottom: black 12px solid;
+}
+
+.rounded-circle i.bi{
+    color: #FB2576;
+    font-size: 25px;
+    /* background-color: aqua; */
+}
+
+.social{
+    border-left: black 12px solid;
+    border-bottom: black 12px solid;
+}
+
+.socialCart{
+    /* background-color: palegoldenrod; */
+    width: 110px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.socialCart i.bi{
+    font-size: 20px;
+}
+
+.email{
+    border-right: black 12px solid;
+    border-top: black 12px solid;
+}
+
+.call{
+    border-left: black 12px solid;
+    border-top: black 12px solid;
+}
+
+.row.row-cols-2 a:link{
+    text-decoration: none;
+}
+
+.col.social .pack .socialCart a i.bi{
+    color: white;
+    /* background-color: yellow; */
+    margin: 0;
+    padding: 0;
+}
+
+.socialCart{
+    /* background-color: blue; */
+    margin: 0%;
+    padding: 0%;
+}
