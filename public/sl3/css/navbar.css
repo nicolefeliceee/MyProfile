@@ -96,6 +96,9 @@ h1, h2, h3, h4, h5, h6 {
     justify-content: space-between;
     align-items: center;
     padding: 0px 60px;
+    position: fixed;
+    width: 100%;
+    z-index: 15;
 }
 
 .fullNavbar .navbar, .fullNavbar h2{
@@ -106,12 +109,15 @@ h1, h2, h3, h4, h5, h6 {
 /* navbar end */
 
 /* container */
+
 .allContainer{
-    background-color: black;
+    background-color: pink;
     opacity: 0.9;
     height: 1000px;
-    margin-top: 15px;
+    width: 1143px;
+    margin-top: 85px;
     margin-left: 60px;
     margin-right: 60px;
+    position: absolute;
 }
 /* container end */
