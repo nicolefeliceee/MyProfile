@@ -68,7 +68,6 @@ h1, h2, h3, h4, h5, h6 {
     height: 2px;
     bottom: -4px;
     left: 0;
-    /* background-color: #18d26e; */
     background-color: #FB2576;
     visibility: hidden;
     width: 0px;
@@ -83,4 +82,36 @@ h1, h2, h3, h4, h5, h6 {
 .navbar a:hover, .navbar .active{
     color: white;
 }
+
+.fullNavbar h2 a{
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.fullNavbar{
+    display: flex;
+    background-color: black;
+    height: 70px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 60px;
+}
+
+.fullNavbar .navbar, .fullNavbar h2{
+    margin: 0;
+    /* background-color: aquamarine; */
+}
+
 /* navbar end */
+
+/* container */
+.allContainer{
+    background-color: black;
+    opacity: 0.9;
+    height: 1000px;
+    margin-top: 15px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+/* container end */

@@ -13,10 +13,22 @@
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
 
     {{-- customize css --}}
+    <link rel="stylesheet" href="sl3/css/navbar.css">
     <link rel="stylesheet" href="sl3/css/resume.css">
 </head>
 <body>
-
+    <div class="fullNavbar">
+        <h2><a href="index">Nicole Felice</a></h2>
+        <nav id="navbar" class="navbar">
+            <ul>
+              <li><a class="nav-link" href="index">Home</a></li>
+              <li><a class="nav-link" href="about">About</a></li>
+              <li><a class="nav-link active" href="resume">Resume</a></li>
+              <li><a class="nav-link" href="project">Project</a></li>
+              <li><a class="nav-link" href="contact">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
 
 
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
