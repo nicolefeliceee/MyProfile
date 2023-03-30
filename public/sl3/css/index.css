@@ -1,0 +1,32 @@
+#header {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    z-index: 10;
+}
+
+#header h1 {
+    font-size: 48px;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+}
+
+#header h1 a{
+    color: white;
+    line-height: 1;
+}
+
+#header h2 {
+    font-size: 22px;
+    margin-top: 20px;
+    color: white;
+    opacity: 0.8;
+}
+
+.desc{
+    width: 700px;
+}
