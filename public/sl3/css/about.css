@@ -1,0 +1,74 @@
+/* biodata */
+.kiri{
+    display: flex;
+    align-items: center;
+    /* background-color: blue; */
+}
+
+.col.col-md-8{
+    /* background-color: blueviolet; */
+    width: 100%;
+}
+
+.col.col-md-8 h3{
+    font-weight: 700;
+    font-size: 26px;
+    color: #FB2576;
+    /* background-color: yellow; */
+    /* width: 100%; */
+}
+
+.col.col-md-4{
+    /* background-color: aqua; */
+    height: 422px;
+    width: 34%;
+    background-image: url("../img/me2.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.row.row2 .col-lg-6 ul{
+    /* background-color: yellow; */
+    list-style: none;
+    width: 100%;
+}
+
+.row.row2{
+    /* background-color: blue; */
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.row.row2 .col-lg-6 ul{
+    padding: 0;
+    margin: 0;
+}
+
+.right{
+    width: 66%;
+}
+/* biodata */
+
+/* hardskill */
+.skill{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+}
+
+.skill.val{
+    font-style: normal;
+}
+
+.progress-bar{
+    background-color: #FB2576;
+    transition: 0.9s;
+}
+
+/* hardskill */

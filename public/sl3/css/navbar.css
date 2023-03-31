@@ -121,7 +121,7 @@ h1, h2, h3, h4, h5, h6 {
     /* opacity: 0.94; */
     width: 90%;
     margin: auto;
-    height: 1000px;
+    height: 2000px;
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 20px;
@@ -144,7 +144,7 @@ h1, h2, h3, h4, h5, h6 {
 .section-title h2::after {
     content: "";
     width: 120px;
-    height: 1px;
+    height: 2px;
     display: inline-block;
     background: #FB2576;
     margin: 4px 10px;
