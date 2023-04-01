@@ -1,8 +1,8 @@
 .education{
     /* background-color: yellow; */
     width: 100%;
-    height: 480px;
-    /* display: flex; */
+    height: 530px;
+    margin-bottom: 70px;
 }
 
 .image{
@@ -37,9 +37,9 @@
 
 .school{
     /* width: 100%; */
-    height: 80%;
+    height: 90%;
     /* background-color: blue; */
-    background-image: url("../img/me.png");
+    background-image: url("../img/sekolahFix.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -84,11 +84,6 @@
 
 .education .card:hover{
     transform: scale(1.13);
-}
-
-.organization{
-    /* background-color: yellow; */
-    height: 1000px;
 }
 
 .org-left{

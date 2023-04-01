@@ -398,10 +398,12 @@
             </div>
         </div>
         {{-- tools --}}
-
-
     </div>
     {{-- content end here --}}
+
+    {{-- footer --}}
+    @include('footer')
+    {{-- footer --}}
 
     {{-- bootstrap js --}}
     <script src="node_modules/aos/dist/aos.js"></script>

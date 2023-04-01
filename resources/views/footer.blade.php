@@ -19,24 +19,9 @@
     <link rel="stylesheet" href="sl3/css/footer.css">
 </head>
 <body>
-    {{-- navbar start here --}}
-    {{-- <div class="fullNavbar position-fixed">
-        <h1><a href="index">Nicole Felice</a></h1>
-        <nav id="navbar" class="navbar">
-            <ul>
-              <li><a class="nav-link" href="index">Home</a></li>
-              <li><a class="nav-link" href="about">About</a></li>
-              <li><a class="nav-link" href="resume">Resume</a></li>
-              <li><a class="nav-link" href="project">Project</a></li>
-              <li><a class="nav-link active" href="contact">Contact</a></li>
-            </ul>
-        </nav>
-    </div> --}}
-    {{-- navbar end here --}}
-
     {{-- footer start here --}}
     <footer class="w-100 pb-4">
-        <nav id="navbar" class="navbar mb-4">
+        <nav id="navbar" class="navbar mb-4 mt-0">
             <ul>
               <li><a class="nav-link" href="index">Home</a></li>
               <li><a class="nav-link" href="about">About</a></li>

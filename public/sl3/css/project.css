@@ -30,7 +30,7 @@
     /* background-color: yellow; */
 }
 
-.projectCard .card:hover{
+.project .projectCard .card:hover{
     transform: scale(1.06);
 }
 
@@ -81,6 +81,15 @@
     font-weight: 900;
     margin-bottom: 23px;
     color: #FB2576;
+}
+
+.modal-content .modal-body .rightModal p{
+    font-size: 16px;
+}
+
+.modal-content .modal-body .rightModal p a{
+    color: #FB2576;
+
 }
 
 /* .modal-body{ */

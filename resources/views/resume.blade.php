@@ -147,7 +147,7 @@
                 <div class="gap w-100"></div>
                 <div id="card4" class="card card4 text-center ms-5">
                     <div class="card-body">
-                        <h5 class="card-title m-0">Committee of BCA Outing Festival</h5>
+                        <h5 class="card-title m-0">Event Division of BCA Outing Festival</h5>
                     </div>
                 </div>
                 <div class="gap w-100"></div>
@@ -165,11 +165,13 @@
             </div>
             <div class="org-right">
             </div>
-
-
         </div>
         {{-- organizational experience --}}
     </div>
+
+    {{-- footer --}}
+    @include('footer')
+    {{-- footer --}}
 
     <script src="sl3/js/resume.js"></script>
     <script src="node_modules/aos/dist/aos.js"></script>

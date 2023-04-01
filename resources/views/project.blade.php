@@ -34,11 +34,7 @@
     </div>
     {{-- navbar end here --}}
 
-{{--
-    <div class="modal-dialog modal-dialog-centered">
-        haiiii
-    </div> --}}
-
+    {{-- project --}}
     <div class="allContainer project">
         <div class="section-title">
             <h2>Project</h2>
@@ -62,7 +58,7 @@
             <div class="card" data-bs-toggle="modal" data-bs-target="#project3Modal" style="width: 21rem;" data-aos="fade-left" data-aos-duration="1000">
                 <img src="sl3/img/bg.png" class="card-img-top" alt="Muree">
                 <div class="card-body">
-                    <h5 class="card-title">Muree</h5>
+                    <h5 class="card-title">MuRee</h5>
                     <p class="card-text">Artificial Intelligence / 2022</p>
                 </div>
             </div>
@@ -107,9 +103,10 @@
                         <div class="rightModal ms-4">
                             <h4>Project information</h4>
                             <p class="mb-3"><strong>Category: </strong>Software Engineering</p>
-                            <p class="mb-3"><strong>Category: </strong>Software Engineering</p>
-                            <p class="mb-4"><strong>Category: </strong>Software Engineering</p>
-                            <p>JualanYuk! is a Inquisitive soon-to-be Computer Science graduate skilled in leadership, organizational, and product-development, with a strong foundation in math, programming logic, and problem solving. I am a young, energetic, and geeky individual whose desire to learn is endless.</p>
+                            <p class="mb-3"><strong>Year: </strong>2023</p>
+                            <p class="mb-3"><strong>Github: </strong><a href="https://github.com/nicolefeliceee/JualanYuk">github/jualanyuk</a></p>
+                            <p class="mb-4"><strong>Project URL: </strong><a href="https://jualanyukkk.000webhostapp.com/Code/login/login.php">jualanyuk.com</a></p>
+                            <p>JualanYuk is a goods supplier software whose business model focuses on B2B (Business to Business) which provides quality wholesale products at affordable prices that helps Ministry of Micro, Small & Medium Enterprises (MSME) traders in building and managing their business.</p>
                         </div>
                     </div>
                     <div class="modal-footer">
@@ -134,13 +131,13 @@
                             </div>
                             <div class="carousel-inner">
                                 <div class="carousel-item active" data-bs-interval="2000">
-                                    <img src="sl3/img/me.png" class="d-block w-100" alt="...">
+                                    <img src="sl3/img/bg.png" class="d-block w-100" alt="...">
                                 </div>
                                 <div class="carousel-item" data-bs-interval="2000">
-                                    <img src="sl3/img/me.png" class="d-block w-100" alt="...">
+                                    <img src="sl3/img/bg.png" class="d-block w-100" alt="...">
                                 </div>
                                 <div class="carousel-item" data-bs-interval="2000">
-                                    <img src="sl3/img/me.png" class="d-block w-100" alt="...">
+                                    <img src="sl3/img/bg.png" class="d-block w-100" alt="...">
                                 </div>
                             </div>
                             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="prev">
@@ -155,10 +152,10 @@
                         {{-- carousel --}}
                         <div class="rightModal ms-4">
                             <h4>Project information</h4>
-                            <p class="mb-3"><strong>Category: </strong>Software Engineering</p>
-                            <p class="mb-3"><strong>Category: </strong>Software Engineering</p>
-                            <p class="mb-4"><strong>Category: </strong>Software Engineering</p>
-                            <p>JualanYuk! is a Inquisitive soon-to-be Computer Science graduate skilled in leadership, organizational, and product-development, with a strong foundation in math, programming logic, and problem solving. I am a young, energetic, and geeky individual whose desire to learn is endless.</p>
+                            <p class="mb-3"><strong>Category: </strong>Machine Learning</p>
+                            <p class="mb-3"><strong>Year: </strong>2023</p>
+                            <p class="mb-4"><strong>Github: </strong><a href="https://github.com/nicolefeliceee/Brain-Stroke-Prediction">github/brain-stroke</a></p>
+                            <p>The brain stroke prediction system is a system that can predict whether a person has a brain stroke or not from several parameters. This system is designed with machine learning using random forest algorithm with parameter tuning.</p>
                         </div>
                     </div>
                     <div class="modal-footer">
@@ -171,7 +168,7 @@
             <div class="modal-dialog modal-lg modal-dialog-centered modal-xl">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h1 class="modal-title " id="project3ModalLabel">Muree</h1>
+                        <h1 class="modal-title " id="project3ModalLabel">MuRee</h1>
                     </div>
                     <div class="modal-body">
                         {{-- carousel --}}
@@ -204,10 +201,10 @@
                         {{-- carousel --}}
                         <div class="rightModal ms-4">
                             <h4>Project information</h4>
-                            <p class="mb-3"><strong>Category: </strong>Software Engineering</p>
-                            <p class="mb-3"><strong>Category: </strong>Software Engineering</p>
-                            <p class="mb-4"><strong>Category: </strong>Software Engineering</p>
-                            <p>JualanYuk! is a Inquisitive soon-to-be Computer Science graduate skilled in leadership, organizational, and product-development, with a strong foundation in math, programming logic, and problem solving. I am a young, energetic, and geeky individual whose desire to learn is endless.</p>
+                            <p class="mb-3"><strong>Category: </strong>Artificial Intelligence</p>
+                            <p class="mb-3"><strong>Year: </strong>2022</p>
+                            <p class="mb-4"><strong>Github: </strong><a href="https://github.com/nicolefeliceee/Muree">github/muree</a></p>
+                            <p>MuRee is a music recommendation application designed using artificial intelligence. This application is able to recommend the next song that will be heard by the user based on the genre and year of release of the previous songs (user habits) using content based filtering.</p>
                         </div>
                     </div>
                     <div class="modal-footer">
@@ -216,8 +213,12 @@
                 </div>
             </div>
         </div>
-
     </div>
+    {{-- project --}}
+
+    {{-- footer --}}
+    @include('footer')
+    {{-- footer --}}
 
     <script src="node_modules/aos/dist/aos.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>

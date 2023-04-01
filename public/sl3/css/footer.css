@@ -1,7 +1,7 @@
 footer.w-100{
-    background-color: black;
-    /* height: 300px; */
+    background-color: rgba(0, 0, 0, 0.88);
     padding: 0px 60px;
+    padding-top: 100px;
 }
 
 footer .navbar{
@@ -14,5 +14,10 @@ footer .right-footer{
 }
 
 footer .right-footer a{
-    color: white;
+    color: rgba(255, 255, 255, 0.7);
+
+}
+
+footer .left-footer p{
+    color: rgba(255, 255, 255, 0.7);
 }

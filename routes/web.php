@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Auth;
 */
 
 Route::get('/', function () {
-    return view('footer');
+    return view('index');
 });
 Route::get('/index', function () {
     return view('index');

@@ -22,20 +22,20 @@
     <header id="header" >
         <div class="container">
 
-          <h1 ><a href="index">Nicole Felice</a></h1>
-          <h2 class="desc" >Inquisitive <b>soon-to-be Computer Science graduate</b> skilled in leadership, organizational, and product-development, with a strong foundation in math, programming logic, and problem solving.</h2>
+            <h1 ><a href="index">Nicole Felice</a></h1>
+            <h2 class="desc" >Inquisitive <b>soon-to-be Computer Science graduate</b> skilled in leadership, organizational, and product-development, with a strong foundation in math, programming logic, and problem solving.</h2>
 
-          <nav id="navbar" class="navbar" data-aos="fade-right" data-aos-duration="1000" data-aos-offset="100">
-            <ul>
-              <li><a class="nav-link active" href="index">Home</a></li>
-              <li><a class="nav-link" href="about">About</a></li>
-              <li><a class="nav-link" href="resume">Resume</a></li>
-              <li><a class="nav-link" href="project">Project</a></li>
-              <li><a class="nav-link" href="contact">Contact</a></li>
-            </ul>
-          </nav>
+            <nav id="navbar" class="navbar" data-aos="fade-right" data-aos-duration="1000" data-aos-offset="100">
+                <ul>
+                    <li><a class="nav-link active" href="index">Home</a></li>
+                    <li><a class="nav-link" href="about">About</a></li>
+                    <li><a class="nav-link" href="resume">Resume</a></li>
+                    <li><a class="nav-link" href="project">Project</a></li>
+                    <li><a class="nav-link" href="contact">Contact</a></li>
+                </ul>
+            </nav>
         </div>
-      </header>
+    </header>
 
     <script src="node_modules/aos/dist/aos.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
