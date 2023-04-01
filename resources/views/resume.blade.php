@@ -107,8 +107,71 @@
         </div>
         {{-- educational background --}}
 
+        <div class="section-title">
+            <h2 class="mt-5">Organizational Experience</h2>
+        </div>
+        {{-- organizational experience --}}
+        <div class="organization w-100 d-flex">
+            <div class="org-left d-flex align-items-center flex-column mt-3">
+                <div id="circle1" class="circle circle1 d-flex">
+                    <p class="m-auto">2021</p>
+                </div>
+                <div class="line"></div>
+                <div id="circle2" class="circle circle2 d-flex">
+                    <p class="m-auto">2022</p>
+                </div>
+                <div class="line"></div>
+                <div id="circle3" class="circle circle3 d-flex">
+                    <p class="m-auto">2023</p>
+                </div>
+                <div class="line2"></div>
+            </div>
+            <div class="org-mid">
+                <div id="card1" class="card card1 text-center ms-5 mt-3">
+                    <div class="card-body">
+                        <h5 class="card-title m-0">Head of Gelanggang Anak Buddhis Indonesia (GABI)</h5>
+                    </div>
+                </div>
+                <div class="gap w-100"></div>
+                <div id="card2" class="card card2 text-center ms-5">
+                    <div class="card-body">
+                        <h5 class="card-title m-0">Head of Gelanggang Anak Buddhis Indonesia (GABI)</h5>
+                    </div>
+                </div>
+                <div class="gap w-100"></div>
+                <div id="card3" class="card card3 text-center ms-5">
+                    <div class="card-body">
+                        <h5 class="card-title m-0">Head of Gelanggang Anak Buddhis Indonesia (GABI)</h5>
+                    </div>
+                </div>
+                <div class="gap w-100"></div>
+                <div id="card4" class="card card4 text-center ms-5">
+                    <div class="card-body">
+                        <h5 class="card-title m-0">Head of Gelanggang Anak Buddhis Indonesia (GABI)</h5>
+                    </div>
+                </div>
+                <div class="gap w-100"></div>
+                <div id="card5" class="card card5 text-center ms-5">
+                    <div class="card-body">
+                        <h5 class="card-title m-0">Head of Gelanggang Anak Buddhis Indonesia (GABI)</h5>
+                    </div>
+                </div>
+                <div class="gap w-100"></div>
+                <div id="card6" class="card card6 text-center ms-5">
+                    <div class="card-body">
+                        <h5 class="card-title m-0">Head of Gelanggang Anak Buddhis Indonesia (GABI)</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="org-right">
+            </div>
+
+
+        </div>
+        {{-- organizational experience --}}
     </div>
 
+    <script src="sl3/js/resume.js"></script>
     <script src="node_modules/aos/dist/aos.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>

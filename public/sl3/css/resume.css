@@ -44,7 +44,7 @@
     background-size: cover;
 }
 
-.card{
+.education .card{
     /* width: 100%; */
     /* background-color: yellow; */
     background-color: rgb(255, 255, 255, .13);
@@ -64,7 +64,7 @@
     font-size: smaller;
 }
 
-.card.w-100.card2{
+.education .card.w-100.card2{
     margin-top: 45px;
 }
 
@@ -82,6 +82,79 @@
     width: 85%;
 }
 
-.card:hover{
+.education .card:hover{
     transform: scale(1.13);
+}
+
+.organization{
+    /* background-color: yellow; */
+    height: 1000px;
+}
+
+.org-left{
+    width: 10%;
+    /* background-color: blue; */
+    height: 100%;
+}
+
+.org-mid{
+    width: 40%;
+    /* background-color: pink; */
+    height: 100%;
+}
+
+.org-right{
+    width: 50%;
+    /* background-color: yellow; */
+    height: 100%;
+}
+
+.circle{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255, .2);
+    cursor: pointer;
+}
+
+.circle p{
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-size: 25px;
+}
+
+.line{
+    width: 3px;
+    height: 50px;
+    background-color: rgb(255, 255, 255, .2);
+}
+
+.organization .org-mid .card{
+    background-color: rgb(255, 255, 255, .2);
+    width: 80%;
+    border-radius: 0;
+    cursor: pointer;
+    /* box-shadow: 1px 1px 20px 1px #FB2576; */
+    /* box-shadow: 1px 1px 20px 1px rgb(251,37,118); */
+}
+
+.organization .org-mid .card h5{
+    color: white;
+    /* font-weight: bolder; */
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+}
+
+.gap{
+    /* background-color: pink; */
+    height: 50px;
+}
+
+.line2{
+    width: 3px;
+    height: 400px;
+    background-color: rgb(255, 255, 255, .2);
 }
