@@ -1,0 +1,105 @@
+.project .card:hover{
+    cursor: pointer;
+}
+
+.projectCard{
+    display: flex;
+    justify-content: space-between;
+}
+
+.projectCard .card{
+    background-color: rgb(255,255,255,0.2);
+    /* background-color: yellow; */
+    border-radius: 0;
+    /* width: 50px; */
+}
+
+.card img{
+    border-radius: 0%;
+}
+
+.card{
+    box-shadow: 0 1rem 3rem rgba(255,255,255, .175);
+    /* box-shadow: rgba(255,255,255, 0.25) 0px 54px 55px, rgba(255,255,255, 0.12) 0px -12px 30px, rgba(255,255,255, 0.12) 0px 4px 6px, rgba(255,255,255, 0.17) 0px 12px 13px, rgba(255,255,255, 0.09) 0px -3px 5px; */
+    /* box-shadow: rgba(255,255,255, 0.25) 0px 14px 28px, rgba(255,255,255, 0.22) 0px 10px 10px; */
+    /* box-shadow: rgba(255,255,255, 0.1) 0px 4px 6px -1px, rgba(255,255,255, 0.06) 0px 2px 4px -1px; */
+    /* box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;  */
+    /* box-shadow: 0px 9px 32px 2px rgba(255,255,255,0.5);
+    -webkit-box-shadow: 0px 9px 32px 2px rgba(255,255,255,0.5);
+    -moz-box-shadow: 0px 9px 32px 2px rgba(255,255,255,0.5); */
+    /* box-shadow: 2.6px 5.1px 5.1px rgba(255,255,255,0.42); */
+    height: 290px;
+}
+
+.card .card-body .card-title{
+    /* font-weight: 700;
+    font-size: 26px; */
+    color: #FB2576;
+    font-weight: bolder;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-size: 25px;
+}
+
+.modal-dialog.modal-dialog-centered .modal-content{
+    /* width: 1140px; */
+    /* height: 550px; */
+    /* background-color: yellow; */
+    background-color: rgb(255,255,255,0.1);
+    background-color: rgb(0,0,0,0.8);
+}
+
+.modal-dialog.modal-dialog-centered{
+    width: 1000px;
+}
+
+.modal-dialog.modal-dialog-centered .modal-content .modal-body{
+    display: flex;
+}
+
+.modal-content .modal-body .carousel.slide{
+    /* width: 60%; */
+    width: 3000px;
+    /* background-color: blue; */
+}
+
+/* .modal-content .modal-body p{
+    width: 40%;
+} */
+
+.modal-content .modal-body .rightModal{
+    /* width: 40%;
+    width: 500px;
+    background-color: yellow; */
+    font-family: "Poppins", sans-serif;
+}
+
+.modal-content .modal-body .rightModal h4{
+    font-weight: 900;
+    margin-bottom: 23px;
+    color: #FB2576;
+}
+
+/* .modal-body{ */
+    /* background-color: aqua; */
+    /* border: 0; */
+/* } */
+
+.modal .modal-dialog .modal-content .modal-header h1{
+    color: #FB2576;
+    font-weight: bolder;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-size: 28px;
+    color: white;
+}
+
+.modal .modal-dialog .modal-content .modal-footer .btn{
+    background-color: #FB2576;
+    border: 0;
+}
+
+.modal .modal-dialog .modal-content .modal-header .modal-title{
+    width: 100%;
+    /* text-align: center; */
+}

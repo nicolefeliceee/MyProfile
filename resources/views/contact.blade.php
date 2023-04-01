@@ -41,7 +41,7 @@
             <p>Contact Me</p>
         </div>
 
-        <div class="row row-cols-2" data-aos="fade-right" data-aos-duration="1000">
+        <div class="row row-cols-2" data-aos="fade-up" data-aos-duration="1000">
             <a href="https://www.google.com/maps/place/Rumah+Talenta+BCA/@-6.5886849,106.880192,17z/data=!3m1!4b1!4m6!3m5!1s0x2e69c7ff4c5bd601:0xbaf218b456b897e4!8m2!3d-6.5886902!4d106.8823807!16s%2Fg%2F11l0dmgc3q">
                 <div class="col address">
                     <div class="rounded-circle">
