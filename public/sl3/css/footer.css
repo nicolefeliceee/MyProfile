@@ -1,0 +1,18 @@
+footer.w-100{
+    background-color: black;
+    /* height: 300px; */
+    padding: 0px 60px;
+}
+
+footer .navbar{
+    justify-content: center;
+}
+
+footer .right-footer{
+    width: 14%;
+    font-size: x-large;
+}
+
+footer .right-footer a{
+    color: white;
+}
