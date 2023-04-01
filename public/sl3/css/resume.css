@@ -1,0 +1,87 @@
+.education{
+    /* background-color: yellow; */
+    width: 100%;
+    height: 480px;
+    /* display: flex; */
+}
+
+.image{
+    /* background-color: pink; */
+    width: 70%;
+    height: 100%;
+}
+
+.txt{
+    /* background-color: blue; */
+    width: 30%;
+    height: 100%;
+}
+
+.left-img{
+    /* background-color: wheat; */
+    width: 28%;
+    height: 100%;
+}
+
+.mid-img{
+    /* background-color:chartreuse; */
+    width: 40%;
+    height: 100%;
+}
+
+.right-img{
+    /* background-color: darkslateblue; */
+    width: 28%;
+    height: 100%;
+}
+
+.school{
+    /* width: 100%; */
+    height: 80%;
+    /* background-color: blue; */
+    background-image: url("../img/me.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card{
+    /* width: 100%; */
+    /* background-color: yellow; */
+    background-color: rgb(255, 255, 255, .13);
+    transition: 0.5s all ease;
+    box-shadow: 4px 5px 20px 1px #FB2576;
+}
+
+.education .card-body .card-title{
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-size: 22px;
+}
+
+.education .card-body .year{
+    font-size: smaller;
+}
+
+.card.w-100.card2{
+    margin-top: 45px;
+}
+
+.txt.ms-5 h3{
+    color: #FB2576;
+    font-weight: bolder;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-size: 32px;
+    line-height: 42px;
+}
+
+.txt.ms-5 p{
+    line-height: 28px;
+    width: 85%;
+}
+
+.card:hover{
+    transform: scale(1.13);
+}
