@@ -135,31 +135,31 @@
                 <div class="gap w-100"></div>
                 <div id="card2" class="card card2 text-center ms-5">
                     <div class="card-body">
-                        <h5 class="card-title m-0">Head of Gelanggang Anak Buddhis Indonesia (GABI)</h5>
+                        <h5 class="card-title m-0">Committee Chairman of PPTI Anniversary Event</h5>
                     </div>
                 </div>
                 <div class="gap w-100"></div>
                 <div id="card3" class="card card3 text-center ms-5">
                     <div class="card-body">
-                        <h5 class="card-title m-0">Head of Gelanggang Anak Buddhis Indonesia (GABI)</h5>
+                        <h5 class="card-title m-0">Talent Division Coordinator of RTB Gold Festival</h5>
                     </div>
                 </div>
                 <div class="gap w-100"></div>
                 <div id="card4" class="card card4 text-center ms-5">
                     <div class="card-body">
-                        <h5 class="card-title m-0">Head of Gelanggang Anak Buddhis Indonesia (GABI)</h5>
+                        <h5 class="card-title m-0">Committee of BCA Outing Festival</h5>
                     </div>
                 </div>
                 <div class="gap w-100"></div>
                 <div id="card5" class="card card5 text-center ms-5">
                     <div class="card-body">
-                        <h5 class="card-title m-0">Head of Gelanggang Anak Buddhis Indonesia (GABI)</h5>
+                        <h5 class="card-title m-0">Committee Chairman of PPTI 12 Induction</h5>
                     </div>
                 </div>
                 <div class="gap w-100"></div>
                 <div id="card6" class="card card6 text-center ms-5">
                     <div class="card-body">
-                        <h5 class="card-title m-0">Head of Gelanggang Anak Buddhis Indonesia (GABI)</h5>
+                        <h5 class="card-title m-0">Event Division of Lentera Dhamma PPTI/PPBP (LDP)</h5>
                     </div>
                 </div>
             </div>
