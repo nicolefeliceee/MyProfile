@@ -19,13 +19,13 @@
     <link rel="stylesheet" href="sl3/css/index.css">
 </head>
 <body>
-    <header id="header" data-aos="fade-down" data-aos-duration="1000">
+    <header id="header" >
         <div class="container">
 
-          <h1><a href="index">Nicole Felice</a></h1>
-          <h2 class="desc">Inquisitive <b>soon-to-be Computer Science graduate</b> skilled in leadership, organizational, and product-development, with a strong foundation in math, programming logic, and problem solving.</h2>
+          <h1 ><a href="index">Nicole Felice</a></h1>
+          <h2 class="desc" >Inquisitive <b>soon-to-be Computer Science graduate</b> skilled in leadership, organizational, and product-development, with a strong foundation in math, programming logic, and problem solving.</h2>
 
-          <nav id="navbar" class="navbar">
+          <nav id="navbar" class="navbar" data-aos="fade-right" data-aos-duration="1000" data-aos-offset="100">
             <ul>
               <li><a class="nav-link active" href="index">Home</a></li>
               <li><a class="nav-link" href="about">About</a></li>
