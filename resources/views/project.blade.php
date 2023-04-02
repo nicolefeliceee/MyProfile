@@ -222,7 +222,6 @@
 
     <script src="node_modules/aos/dist/aos.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="sl3/js/project.js"></script>
 </body>
     {{-- script for animate on scroll --}}
     <script>

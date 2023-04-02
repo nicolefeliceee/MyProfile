@@ -81,7 +81,7 @@ card2.addEventListener('mouseout', function(){
     circle2.style.backgroundColor = 'rgb(255, 255, 255, .2)';
 });
 
-// 3
+// 3 4 5 6
 circle3.addEventListener('mouseover', function(){
     card3.style.backgroundColor = '#FB2576';
     card3.style.transition = '0.5s all ease';
