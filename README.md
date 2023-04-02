@@ -11,20 +11,23 @@ Hi, I'm Nicole. I'm a student at Bina Nusantara University. This is the source c
 - **AOS**: for incredible animations 
 
 ## 📸 Documentation
-***You can jump directly to each page***
-- **Home**
-- **About**
-- **Resume**
-- **Project**
-- **Contact**
+**You can jump directly to each page**
+- Home
+- [About](#about)
+- Resume
+- Project
+- Contact
 
-Home
-foto
-...
+### Home
+### About
+![about](https://github.com/nicolefeliceee/MyProfile/blob/main/public/sl3/readme/aboutFull.png)
+
+### Resume
+### Project
+### Contact
 
 Contact
 If you have any questions or comments, feel free to reach out to me at nicolefeliceee@gmail.com
 
 
-![about](https://github.com/nicolefeliceee/MyProfile/blob/main/public/sl3/readme/aboutFull.png)
 
