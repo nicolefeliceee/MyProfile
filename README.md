@@ -12,22 +12,26 @@ Hi, I'm Nicole. I'm a student at Bina Nusantara University. This is the source c
 
 ## 📸 Documentation
 **You can jump directly to each page**
-- Home
+- [Home](#home)
 - [About](#about)
-- Resume
-- Project
-- Contact
+- [Resume](#resume)
+- [Project](#project)
+- [Contact](#contact)
 
 ### Home
+![home](https://github.com/nicolefeliceee/MyProfile/blob/main/public/sl3/readme/homeFull.png)
 ### About
 ![about](https://github.com/nicolefeliceee/MyProfile/blob/main/public/sl3/readme/aboutFull.png)
-
 ### Resume
+![resume](https://github.com/nicolefeliceee/MyProfile/blob/main/public/sl3/readme/resumeFull.png)
 ### Project
+![project](https://github.com/nicolefeliceee/MyProfile/blob/main/public/sl3/readme/projectFull.png)
 ### Contact
+![contact](https://github.com/nicolefeliceee/MyProfile/blob/main/public/sl3/readme/contactFull.png)
 
-Contact
-If you have any questions or comments, feel free to reach out to me at nicolefeliceee@gmail.com
+## 📮 Contact
+If you have any **questions** or **comments**, feel free to reach out to me at
+✨✨ **nicolefeliceee@gmail.com**
 
 
 
