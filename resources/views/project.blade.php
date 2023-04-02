@@ -42,21 +42,21 @@
         </div>
         <div class="projectCard">
             <div class="card" data-bs-toggle="modal" data-bs-target="#project1Modal" style="width: 21rem;" data-aos="fade-right" data-aos-duration="1000">
-                <img src="sl3/img/bg.png" class="card-img-top" alt="JualanYuk!">
+                <img src="sl3/img/jualanYuk.png" class="card-img-top" alt="JualanYuk!">
                 <div class="card-body">
                     <h5 class="card-title">JualanYuk!</h5>
                     <p class="card-text">Software Engineering / 2023</p>
                 </div>
             </div>
             <div class="card" data-bs-toggle="modal" data-bs-target="#project2Modal" style="width: 21rem;" data-aos="fade-up" data-aos-duration="1000">
-                <img src="sl3/img/bg.png" class="card-img-top" alt="Brain Stroke Prediction">
+                <img src="sl3/img/brainStroke.jpg" class="card-img-top" alt="Brain Stroke Prediction">
                 <div class="card-body">
                     <h5 class="card-title">Brain Stroke Prediction</h5>
                     <p class="card-text">Machine Learning / 2023</p>
                 </div>
             </div>
             <div class="card" data-bs-toggle="modal" data-bs-target="#project3Modal" style="width: 21rem;" data-aos="fade-left" data-aos-duration="1000">
-                <img src="sl3/img/bg.png" class="card-img-top" alt="Muree">
+                <img src="sl3/img/muree.png" class="card-img-top" alt="Muree">
                 <div class="card-body">
                     <h5 class="card-title">MuRee</h5>
                     <p class="card-text">Artificial Intelligence / 2022</p>
@@ -81,13 +81,13 @@
                             </div>
                             <div class="carousel-inner">
                                 <div class="carousel-item active" data-bs-interval="2000">
-                                    <img src="sl3/img/bg.png" class="d-block w-100" alt="...">
+                                    <img src="sl3/img/jualanYuk.png" class="d-block w-100" alt="JualanYuk! logo">
                                 </div>
                                 <div class="carousel-item" data-bs-interval="2000">
-                                    <img src="sl3/img/bg.png" class="d-block w-100" alt="...">
+                                    <img src="sl3/img/jualanYuk2.png" class="d-block w-100" alt="JualanYuk! website">
                                 </div>
                                 <div class="carousel-item" data-bs-interval="2000">
-                                    <img src="sl3/img/bg.png" class="d-block w-100" alt="...">
+                                    <img src="sl3/img/jualanYuk3.png" class="d-block w-100" alt="JualanYuk! team">
                                 </div>
                             </div>
                             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide="prev">
@@ -131,13 +131,13 @@
                             </div>
                             <div class="carousel-inner">
                                 <div class="carousel-item active" data-bs-interval="2000">
-                                    <img src="sl3/img/bg.png" class="d-block w-100" alt="...">
+                                    <img src="sl3/img/brainStroke.jpg" class="d-block w-100" alt="Brain Stroke Logo">
                                 </div>
                                 <div class="carousel-item" data-bs-interval="2000">
-                                    <img src="sl3/img/bg.png" class="d-block w-100" alt="...">
+                                    <img src="sl3/img/brainStroke2.png" class="d-block w-100" alt="Brain Stroke Code">
                                 </div>
                                 <div class="carousel-item" data-bs-interval="2000">
-                                    <img src="sl3/img/bg.png" class="d-block w-100" alt="...">
+                                    <img src="sl3/img/brainStroke3.png" class="d-block w-100" alt="Brain Stroke Prediction Team">
                                 </div>
                             </div>
                             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="prev">
@@ -180,13 +180,13 @@
                             </div>
                             <div class="carousel-inner">
                                 <div class="carousel-item active" data-bs-interval="2000">
-                                    <img src="sl3/img/bg.png" class="d-block w-100" alt="...">
+                                    <img src="sl3/img/muree.png" class="d-block w-100" alt="MuRee logo">
                                 </div>
                                 <div class="carousel-item" data-bs-interval="2000">
-                                    <img src="sl3/img/bg.png" class="d-block w-100" alt="...">
+                                    <img src="sl3/img/muree2.png" class="d-block w-100" alt="MuRee website">
                                 </div>
                                 <div class="carousel-item" data-bs-interval="2000">
-                                    <img src="sl3/img/bg.png" class="d-block w-100" alt="...">
+                                    <img src="sl3/img/muree3.png" class="d-block w-100" alt="MuRee team">
                                 </div>
                             </div>
                             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide="prev">
