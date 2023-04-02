@@ -61,7 +61,7 @@
                             <ul>
                               <li class="mb-4"><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>19</span></li>
                               <li class="mb-4"><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Undergraduate</span></li>
-                              <li class="mb-4"><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>nicolefeliceee@gmail.com</span></li>
+                              <li class="mb-4"><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Jambi</span></li>
                             </ul>
                         </div>
                     </div>
