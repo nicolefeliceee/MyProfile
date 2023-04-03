@@ -26,6 +26,8 @@ Hi, I'm Nicole. I'm a student at Bina Nusantara University. This is the source c
 ![resume](https://github.com/nicolefeliceee/MyProfile/blob/main/public/sl3/readme/resumeFull.png)
 ### Project
 ![project](https://github.com/nicolefeliceee/MyProfile/blob/main/public/sl3/readme/projectFull.png)
+#### Project Details
+![projectDetails](https://github.com/nicolefeliceee/MyProfile/blob/main/public/sl3/readme/projectDetails.png)
 ### Contact
 ![contact](https://github.com/nicolefeliceee/MyProfile/blob/main/public/sl3/readme/contactFull.png)
 
