@@ -39,10 +39,6 @@ Route::get('/contact', function () {
     return view('contact');
 })->name('contact');
 
-// Route::get('/gallery', function () {
-//     return view('gallery');
-// })->name('gallery');
-
 Route::get('/galleries', [GalleryController::class, 'index'])->name('galleries');
 
 Route::get('/galleries/{gallery:slug}', [GalleryController::class, 'show'])->name('gallery');
