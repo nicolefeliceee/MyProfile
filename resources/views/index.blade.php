@@ -27,11 +27,11 @@
 
             <nav id="navbar" class="navbar" data-aos="fade-right" data-aos-duration="1000" data-aos-offset="100">
                 <ul>
-                    <li><a class="nav-link active" href="index">Home</a></li>
-                    <li><a class="nav-link" href="about">About</a></li>
-                    <li><a class="nav-link" href="resume">Resume</a></li>
-                    <li><a class="nav-link" href="project">Project</a></li>
-                    <li><a class="nav-link" href="contact">Contact</a></li>
+                    <li><a class="nav-link {{ set_active('index') }}" href="{{ route('index') }}">Home</a></li>
+                    <li><a class="nav-link {{ set_active('about') }}" href="{{ route('about') }}">About</a></li>
+                    <li><a class="nav-link {{ set_active('resume') }}" href="{{ route('resume') }}">Resume</a></li>
+                    <li><a class="nav-link {{ set_active('project') }}" href="{{ route('project') }}">Project</a></li>
+                    <li><a class="nav-link {{ set_active('contact') }}" href="{{ route('contact') }}">Contact</a></li>
                 </ul>
             </nav>
         </div>
