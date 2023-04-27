@@ -7,6 +7,7 @@
           <li><a class="nav-link {{ set_active('resume') }}" href="{{ route('resume') }}">Resume</a></li>
           <li><a class="nav-link {{ set_active('project') }}" href="{{ route('project') }}">Project</a></li>
           <li><a class="nav-link {{ set_active('contact') }}" href="{{ route('contact') }}">Contact</a></li>
+          <li><a class="nav-link {{ set_active(['galleries', 'gallery']) }}" href="{{ route('galleries') }}">Gallery</a></li>
         </ul>
     </nav>
 </div>

@@ -1,11 +1,12 @@
 <footer class="w-100 pb-4">
     <nav id="navbar" class="navbar mb-4 mt-0">
         <ul>
-          <li><a class="nav-link" href="index">Home</a></li>
-          <li><a class="nav-link" href="about">About</a></li>
-          <li><a class="nav-link" href="resume">Resume</a></li>
-          <li><a class="nav-link" href="project">Project</a></li>
-          <li><a class="nav-link" href="contact">Contact</a></li>
+            <li><a class="nav-link {{ set_active('index') }}" href="{{ route('index') }}">Home</a></li>
+            <li><a class="nav-link {{ set_active('about') }}" href="{{ route('about') }}">About</a></li>
+            <li><a class="nav-link {{ set_active('resume') }}" href="{{ route('resume') }}">Resume</a></li>
+            <li><a class="nav-link {{ set_active('project') }}" href="{{ route('project') }}">Project</a></li>
+            <li><a class="nav-link {{ set_active('contact') }}" href="{{ route('contact') }}">Contact</a></li>
+            <li><a class="nav-link {{ set_active(['galleries', 'gallery']) }}" href="{{ route('galleries') }}">Gallery</a></li>
         </ul>
     </nav>
     <hr>

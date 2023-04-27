@@ -38,5 +38,13 @@ Route::get('/contact', function () {
     return view('contact');
 })->name('contact');
 
+Route::get('/galleries', function () {
+    return view('galleries');
+})->name('galleries');
+
+Route::get('/gallery', function () {
+    return view('gallery');
+})->name('gallery');
+
 Auth::routes();
 
