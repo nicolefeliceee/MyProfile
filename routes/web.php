@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Auth;
+use App\Http\Controllers\GalleryController;
 
 /*
 |--------------------------------------------------------------------------
@@ -38,13 +39,14 @@ Route::get('/contact', function () {
     return view('contact');
 })->name('contact');
 
-Route::get('/galleries', function () {
-    return view('galleries');
-})->name('galleries');
+// Route::get('/gallery', function () {
+//     return view('gallery');
+// })->name('gallery');
 
-Route::get('/gallery', function () {
-    return view('gallery');
-})->name('gallery');
+Route::get('/galleries', [GalleryController::class, 'index'])->name('galleries');
+
+Route::get('/galleries/{gallery:slug}', [GalleryController::class, 'show'])->name('gallery');
 
 Auth::routes();
+
 

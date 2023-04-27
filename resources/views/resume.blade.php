@@ -3,7 +3,7 @@
 @section('title', 'Resume')
 
 @section('css')
-    <link rel="stylesheet" href="sl3/css/resume.css">
+    <link rel="stylesheet" href="{{ asset('sl3/css/resume.css') }}">
 @endsection
 
 @section('content')

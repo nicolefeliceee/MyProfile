@@ -20,17 +20,9 @@
     @yield('css')
 </head>
 <body>
-    {{-- navbar start here --}}
-    @include('partials.navbar')
-    {{-- navbar end here --}}
-
     {{-- content start here --}}
     @yield('content')
     {{-- content end here --}}
-
-    {{-- footer --}}
-    @include('partials.footer')
-    {{-- footer --}}
 
     {{-- bootstrap js --}}
     <script src="{{ asset('node_modules/aos/dist/aos.js') }}"></script>
