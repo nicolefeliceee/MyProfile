@@ -17,6 +17,7 @@
 .card{
     width: 25%;
     border-radius: 0;
+    border: black solid 2px;
 }
 
 .card-img-overlay{
