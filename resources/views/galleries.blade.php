@@ -16,10 +16,10 @@
             @foreach ($galleries as $gallery)
                 <a href="/galleries/{{ $gallery->slug }}" class="card text-bg-dark">
                     <div class="card-img" style="background-image: url({{ asset('sl3/img/' . $gallery->image) }})"></div>
-                    <div class="card-img-overlay m-0" style="background-color:
-                        {{ $gallery->status == "Kids"? 'rgb(205,37,251,.7)' : '' }}
-                        {{ $gallery->status == "Teens"? 'rgb(251,165,37,.7)' : '' }}
-                        {{ $gallery->status == "Adult"? 'rgb(37,155,251,.7)' : '' }}
+                    <div class="card-img-overlay m-0" style="color:
+                        {{ $gallery->status == "Kids"? 'rgb(205,37,251,1)' : '' }}
+                        {{ $gallery->status == "Teens"? 'rgb(251,165,37,1)' : '' }}
+                        {{ $gallery->status == "Adult"? 'rgb(37,155,251,1)' : '' }}
                     ">
                         <h5 class="card-title m-0 p-0">{{ $gallery->title }}</h5>
                         <p class="card-text m-0 p-0"><small>{{ $gallery->status }} - {{ $gallery->yearMoment }}</small></p>
