@@ -8,42 +8,24 @@
 
 @section('content')
     <div class="allContainer galleries">
-        @foreach ($galleries as $gallery)
-            @if ($gallery->status === "Kids")
-                <div class="card" style="background-color: yellow; width: 18rem;">
-                    <img src="{{ asset('sl3/img/' . $gallery->image) }}" class="card-img-top" alt="{{ $gallery->title }}">
-                    <div class="card-body">
-                        <h5 class="card-title">{{ $gallery->title }}</h5>
-                        <h6>{{ $gallery->status }} - {{ $gallery->yearMoment }}</h6>
-                        <p class="card-text">{{ $gallery->excerpt }}</p>
-                        <a href="/galleries/{{ $gallery->slug }}" class="btn btn-primary">See More</a>
+        <div class="section-title">
+            <h2>Gallery</h2>
+            <p>A slice of my life</p>
+        </div>
+        <div class="cardGroup d-flex">
+            @foreach ($galleries as $gallery)
+                <a href="/galleries/{{ $gallery->slug }}" class="card text-bg-dark">
+                    <div class="card-img" style="background-image: url({{ asset('sl3/img/' . $gallery->image) }})"></div>
+                    <div class="card-img-overlay m-0" style="background-color:
+                        {{ $gallery->status == "Kids"? 'rgb(205,37,251,.7)' : '' }}
+                        {{ $gallery->status == "Teens"? 'rgb(251,165,37,.7)' : '' }}
+                        {{ $gallery->status == "Adult"? 'rgb(37,155,251,.7)' : '' }}
+                    ">
+                        <h5 class="card-title m-0 p-0">{{ $gallery->title }}</h5>
+                        <p class="card-text m-0 p-0"><small>{{ $gallery->status }} - {{ $gallery->yearMoment }}</small></p>
                     </div>
-                </div>
-
-            @elseif ($gallery->status === "Teens")
-                <div class="card" style="background-color: pink; width: 18rem;">
-                    <img src="{{ asset('sl3/img/' . $gallery->image) }}" class="card-img-top" alt="{{ $gallery->title }}">
-                    <div class="card-body">
-                        <h5 class="card-title">{{ $gallery->title }}</h5>
-                        <h6>{{ $gallery->status }} - {{ $gallery->yearMoment }}</h6>
-                        <p class="card-text">{{ $gallery->excerpt }}</p>
-                        <a href="/galleries/{{ $gallery->slug }}" class="btn btn-primary">See More</a>
-                    </div>
-                </div>
-
-            @elseif ($gallery->status === "Adult")
-                <div class="card" style="background-color: green; width: 18rem;">
-                    <img src="{{ asset('sl3/img/' . $gallery->image) }}" class="card-img-top" alt="{{ $gallery->title }}">
-                    <div class="card-body">
-                        <h5 class="card-title">{{ $gallery->title }}</h5>
-                        <h6>{{ $gallery->status }} - {{ $gallery->yearMoment }}</h6>
-                        <p class="card-text">{{ $gallery->excerpt }}</p>
-                        <a href="/galleries/{{ $gallery->slug }}" class="btn btn-primary">See More</a>
-                    </div>
-                </div>
-
-            @endif
-
-        @endforeach
+                </a>
+            @endforeach
+        </div>
     </div>
 @endsection

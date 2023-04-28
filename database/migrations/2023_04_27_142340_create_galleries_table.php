@@ -18,7 +18,6 @@ return new class extends Migration
             $table->string('title');
             $table->string('slug')->unique();
             $table->string('image')->unique();
-            $table->text('excerpt');
             $table->string('status');
             $table->year('yearMoment');
             $table->text('story');
