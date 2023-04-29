@@ -43,11 +43,22 @@ On this page, you can see my projects that I have accomplished so far. When you 
 #### Project Details
 ![projectDetails](https://github.com/nicolefeliceee/MyProfile/blob/main/public/sl3/readme/fullPage/ProjectDetail.png)
 ### Gallery
-![project](https://github.com/nicolefeliceee/MyProfile/blob/main/public/sl3/readme/projectFull.png)
+On this page, you can see slice of my life in photographs. There is the title about what happened in those days, my age category in those moments, and also what year those moments happened. If you click on the image, you will jump directly into the gallery detail page of that moment. In addition, in the gallery detail page, you can see the story about what happened in that moment back then.
+- GIF
+![gallery](https://github.com/nicolefeliceee/MyProfile/blob/main/public/sl3/readme/gif/Gallery.gif)
+- Full Page
+![gallery2](https://github.com/nicolefeliceee/MyProfile/blob/main/public/sl3/readme/fullPage/Gallery.png)
 #### Gallery Details
-![projectDetails](https://github.com/nicolefeliceee/MyProfile/blob/main/public/sl3/readme/projectDetails.png)
+- GIF
+![galleryDetails](https://github.com/nicolefeliceee/MyProfile/blob/main/public/sl3/readme/gif/GalleryDetail.gif)
+- Full Page
+![galleryDetails2](https://github.com/nicolefeliceee/MyProfile/blob/main/public/sl3/readme/fullPage/GalleryDetail.png)
 ### Contact
-![contact](https://github.com/nicolefeliceee/MyProfile/blob/main/public/sl3/readme/contactFull.png)
+And last but not least, you can reach me at the contact written there. There is also my location and my social profiles.
+- GIF
+![contact](https://github.com/nicolefeliceee/MyProfile/blob/main/public/sl3/readme/gif/Contact.gif)
+- Full Page
+![contact2](https://github.com/nicolefeliceee/MyProfile/blob/main/public/sl3/readme/fullPage/Contact.png)
 
 ## 📮 Contact
 If you have any **questions** or **comments**, feel free to reach out to me at
