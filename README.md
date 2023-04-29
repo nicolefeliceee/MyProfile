@@ -21,12 +21,13 @@ Hi, I'm Nicole. I'm a student at Bina Nusantara University. This is the source c
 
 ### Home
 On this page, you can see what sections you can find on this website. You can jump directly to the page you want to visit by clicking on the menu.
-- GIF
-![home](https://github.com/nicolefeliceee/MyProfile/blob/main/public/sl3/readme/gif/Home.gif)
-- Full Page
-![home2](https://github.com/nicolefeliceee/MyProfile/blob/main/public/sl3/readme/fullPage/Home.png)
+![home](https://github.com/nicolefeliceee/MyProfile/blob/main/public/sl3/readme/fullPage/Home.png)
 ### About
-![about](https://github.com/nicolefeliceee/MyProfile/blob/main/public/sl3/readme/aboutFull.png)
+On this page, you can see what sections you can find on this website. You can jump directly to the page you want to visit by clicking on the menu.
+- GIF
+![about](https://github.com/nicolefeliceee/MyProfile/blob/main/public/sl3/readme/gif/About.gif)
+- Full Page
+![about2](https://github.com/nicolefeliceee/MyProfile/blob/main/public/sl3/readme/fullPage/About.png)
 ### Resume
 ![resume](https://github.com/nicolefeliceee/MyProfile/blob/main/public/sl3/readme/resumeFull.png)
 ### Project
