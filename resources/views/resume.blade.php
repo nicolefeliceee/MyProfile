@@ -1,5 +1,9 @@
 @extends('layouts.master')
 
+@section('metaDescription')
+    My resume, educational backgorund, and organizational experience
+@endsection
+
 @section('title', 'Resume')
 
 @section('css')

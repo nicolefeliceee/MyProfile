@@ -1,5 +1,9 @@
 @extends('layouts.master')
 
+@section('metaDescription')
+    Story of a slice of my life
+@endsection
+
 @section('title', 'Gallery')
 
 @section('css')

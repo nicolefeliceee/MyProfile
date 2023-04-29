@@ -1,5 +1,9 @@
 @extends('layouts.master')
 
+@section('metaDescription')
+    Project I've done so far
+@endsection
+
 @section('title', 'Project')
 
 @section('css')

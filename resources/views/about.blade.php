@@ -1,5 +1,9 @@
 @extends('layouts.master')
 
+@section('metaDescription')
+    My Biodata, skills, and tools which I master
+@endsection
+
 @section('title', 'About')
 
 @section('css')

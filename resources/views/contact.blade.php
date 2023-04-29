@@ -1,5 +1,9 @@
 @extends('layouts.master')
 
+@section('metaDescription')
+    My contact, location, and social profiles
+@endsection
+
 @section('title', 'Contact')
 
 @section('css')

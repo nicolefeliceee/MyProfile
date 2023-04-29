@@ -1,5 +1,9 @@
 @extends('layouts.indexMaster')
 
+@section('metaDescription')
+    My profile
+@endsection
+
 @section('title', 'Home')
 
 @section('css')
