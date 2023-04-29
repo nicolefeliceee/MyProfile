@@ -43,7 +43,7 @@ On this page, you can see my projects that I have accomplished so far. When you 
 #### Project Details
 ![projectDetails](https://github.com/nicolefeliceee/MyProfile/blob/main/public/sl3/readme/fullPage/ProjectDetail.png)
 ### Gallery
-On this page, you can see slice of my life in photographs. There is the title about what happened in those days, my age category in those moments, and also what year those moments happened. If you click on the image, you will jump directly into the gallery detail page of that moment. In addition, in the gallery detail page, you can see the story about what happened in that moment back then.
+On this page, you can see slice of my life in photographs. There is the title about what happened in those days, my age category in those moments, and also what year those moments happened. The color of each moment is distinguished by the age category. Purple represents kids, orange represents teens, and blue represents adult. If you click on the image, you will jump directly into the gallery detail page of that moment. In addition, in the gallery detail page, you can see the story about what happened in that moment back then.
 - GIF
 ![gallery](https://github.com/nicolefeliceee/MyProfile/blob/main/public/sl3/readme/gif/Gallery.gif)
 - Full Page
