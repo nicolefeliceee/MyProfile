@@ -19,6 +19,16 @@ body::before {
     z-index: -1;
 }
 
+/* body{
+    background-image: url(../img/bg.png);
+    background-repeat: repeat-y;
+    background-size: contain;
+    left: 0;
+    right: 0;
+    top: 0;
+    width: 100%;
+} */
+
 h1, h2, h3, h4, h5, h6 {
     font-family: "Raleway", sans-serif;
 }
