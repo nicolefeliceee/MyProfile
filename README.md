@@ -21,7 +21,10 @@ Hi, I'm Nicole. I'm a student at Bina Nusantara University. This is the source c
 
 ### Home
 On this page, you can see what sections you can find on this website. You can jump directly to the page you want to visit by clicking on the menu.
-![home](https://github.com/nicolefeliceee/MyProfile/blob/main/public/sl3/readme/fullPage/Home.png)
+- GIF
+![home](https://github.com/nicolefeliceee/MyProfile/blob/main/public/sl3/readme/gif/Home.gif)
+- Full Page
+![home2](https://github.com/nicolefeliceee/MyProfile/blob/main/public/sl3/readme/fullPage/Home.png)
 ### About
 On this page, you can see my biodata such as name, birthday, phone number, age, degree, and city. You can also see the skills that I have, both soft skills and hard skills. And last but not least, on this page you can also find the tools that I am good at.
 - GIF
@@ -41,7 +44,10 @@ On this page, you can see my projects that I have accomplished so far. When you 
 - Full Page
 ![project2](https://github.com/nicolefeliceee/MyProfile/blob/main/public/sl3/readme/fullPage/Project.png)
 #### Project Details
-![projectDetails](https://github.com/nicolefeliceee/MyProfile/blob/main/public/sl3/readme/fullPage/ProjectDetail.png)
+- GIF
+![projectDetails](https://github.com/nicolefeliceee/MyProfile/blob/main/public/sl3/readme/gif/ProjectDetail.gif)
+- Full Page
+![projectDetails2](https://github.com/nicolefeliceee/MyProfile/blob/main/public/sl3/readme/fullPage/ProjectDetail.png)
 ### Gallery
 On this page, you can see slice of my life in photographs. There is the title about what happened in those days, my age category in those moments, and also what year those moments happened. The color of each moment is distinguished by the age category. **Purple** represents **kids**, **orange** represents **teens**, and **blue** represents **adult**. If you click on the image, you will jump directly into the gallery detail page of that moment. In addition, in the gallery detail page, you can see the story about what happened in that moment back then.
 - GIF
