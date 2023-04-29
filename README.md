@@ -10,7 +10,7 @@ Hi, I'm Nicole. I'm a student at Bina Nusantara University. This is the source c
 - **NPM**: for installing bootstrap assets
 - **AOS**: for incredible animations 
 
-## 📸 Full Page Documentation
+## 📸 Documentation
 **You can jump directly to each page**
 - [Home](#home)
 - [About](#about)
